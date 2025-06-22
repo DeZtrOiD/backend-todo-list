@@ -1,6 +1,6 @@
 ---
 image:
-  repository: romanowalex/backend-todo-list
+  repository: deztroid/backend-todo-list
   tag: v2.1
 
 profile: k8s

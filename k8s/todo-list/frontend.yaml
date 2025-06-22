@@ -1,5 +1,5 @@
 image:
-  repository: romanowalex/frontend-todo-list
+  repository: deztroid/frontend-todo-list
   tag: v2.0
 
 port: 80

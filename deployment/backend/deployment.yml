@@ -30,7 +30,7 @@ spec:
               protocol: TCP
           env:
             - name: SPRING_PROFILES_ACTIVE
-              value: do
+              value: docker
             - name: DATABASE_USER
               value: program
             - name: DATABASE_PASSWORD
@@ -41,3 +41,9 @@ spec:
               value: postgres.practice.svc.cluster.local
             - name: DATABASE_NAME
               value: todo_list
+            - name: SPRING_DATASOURCE_URL
+              value: jdbc:postgresql://postgres:5432/todo_list
+            - name: SPRING_DATASOURCE_USERNAME
+              value: program
+            - name: SPRING_DATASOURCE_PASSWORD
+              value: test
